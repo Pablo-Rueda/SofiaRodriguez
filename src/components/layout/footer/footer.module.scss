@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    height: 50px;
+    background-color: #BD71CF;
+    justify-content: center;
+    color: white;
+    .text{ 
+        padding-top: 12px;
+    }
+}
