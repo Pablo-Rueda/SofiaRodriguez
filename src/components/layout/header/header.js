@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
       flexGrow: 1,
     },
     customizeToolbar: {
+      minHeight: '50px',
       paddingRight:55
     },
   }));
@@ -41,17 +42,15 @@ const useStyles = makeStyles((theme) => ({
       })
   
     return (
-      <div className={classes.root}>
-        <AppBar  position="fixed" style={{ background: 'white', margin: 0, boxShadow: "0px 0px 0px 0px black" }}>
+        <AppBar  position="fixed" className={classes.root} style={{ background: 'white', margin: 0, boxShadow: "0px 0px 0px 0px black" }}>
           <Toolbar className={classes.customizeToolbar} style={shadowOnScroll}>
             <Link to="/"> <img className={headerStyles.logo} src={require('./logo.png')} alt="logo"/></Link>
             <Grid container direction="row" justify="flex-end" alignItems="center">
               <Link className={headerStyles.navItem} to="/">Inicio</Link>
               <Link className={headerStyles.navItem} to="/servicios">Servicios</Link>
-              <Link className={headerStyles.navItem} to="/contacto">Contact</Link>
+              <Link className={headerStyles.navItem} to="/contacto">Contacto</Link>
             </Grid>
           </Toolbar>
         </AppBar>
-      </div>
     );
   }

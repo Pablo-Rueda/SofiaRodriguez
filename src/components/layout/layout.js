@@ -1,4 +1,6 @@
 import React from 'react'
+import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
 
 // Components:
 import Header from "./header/header"
@@ -7,16 +9,30 @@ import Footer from "./footer/footer"
 import "./reset.scss"; // reset all
 import layoutStyles from "./layout.module.scss";
 
-const layout = (props) => {
-    return ( 
-        <div className={layoutStyles.container}>
-            <Header />
-            <div className={layoutStyles.content}>
-                {props.children}
+const theme = createMuiTheme({
+    palette: {
+      primary: {
+        main: "rgb(9,174,162)",
+        dark: "rgb(3,77,88)",
+      },
+      secondary: {
+        main: 'rgb(245,161,110)',
+      },
+    },
+  });
+
+const Layout = (props) => {
+    return (
+        <ThemeProvider theme={theme}>
+            <div className={layoutStyles.container}>
+                <div className={layoutStyles.content}>
+                    <Header />
+                    {props.children}
+                </div>
+                <Footer />
             </div>
-        <Footer />
-        </div>
+        </ThemeProvider>
      );
 }
  
-export default layout;
+export default Layout;
