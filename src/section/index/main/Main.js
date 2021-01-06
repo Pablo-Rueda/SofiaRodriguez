@@ -3,7 +3,7 @@ import mainStyle from "./main.module.scss"
 
 import {Link} from "gatsby";
 
-import Button from "./../../components/button/button"
+import Button from "../../../components/button/button"
 
 const Main = () => {
     return ( 

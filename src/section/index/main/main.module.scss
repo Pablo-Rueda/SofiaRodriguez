@@ -1,6 +1,6 @@
 .container{
     background-image: url(./background.png);
-    background-attachment: local;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -29,7 +29,16 @@
         font-size: 48px;
     }
 }
-
+@media only screen and (max-width : 750px){
+    .content{
+        h1{
+            font-size: 48px;
+        }
+        h2{
+            font-size: 28px;
+        }
+    }
+}
 .buttons{
     padding-top: 20px;
 }
