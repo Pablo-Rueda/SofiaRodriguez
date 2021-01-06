@@ -1,0 +1,147 @@
+
+$space: 75px;
+
+.material-icons {
+  font-family: "Material Icons";
+  vertical-align: bottom;
+  line-height:inherit;
+}
+
+.inDivisor{
+  display: inline;
+}
+
+
+/*******************
+  Utility Classes
+*******************/
+.space1em{
+  padding-top: 1em;
+}
+// Disposition of divs
+// -------------
+
+
+@media only screen and (max-width : 950px){
+  .flexRow{
+      flex-direction: column;
+    }
+}
+
+.flexRow{
+  display:flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width : 950px){
+  .flexRow{
+      flex-direction: column;
+    }
+}
+
+// Position in the div
+// -------------
+.hide {
+    display: none !important;
+  }
+  
+  // Text Align
+  .left-align {
+    align-self: left;
+    text-align: left;
+  }
+  .right-align {
+    align-self: right;
+    text-align: right
+  }
+  .center, .center-align {
+    text-align: center;
+  }
+  
+  .left {
+    float: left !important;
+  }
+  .right {
+    float: right !important;
+  }
+  
+  // No Text Select
+  .no-select {
+    user-select: none;
+  }
+  
+  .circle {
+    border-radius: 50%;
+  }
+  
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 950px;
+    width: 90%;
+  }
+
+  @media only screen and (min-width : 601px){
+    .container {
+      width: 85%;
+    }
+  }
+  @media only screen and (min-width : 1150px) {
+    .container {
+      max-width: 950px;
+      width: 85%;
+    }
+  }
+
+
+
+/*********************
+  Media Query Classes
+**********************/
+.hide-on-small {
+  @media only screen and (max-width : 600px) {
+    display: none !important;
+  }
+}
+.hide-on-med {
+  @media only screen and (max-width : 942px) {
+    display: none !important;
+  }
+}
+
+.hide-on-large{
+  @media only screen and (min-width : 943px) {
+    display: none !important;
+  }
+}
+.hide-on-extra-large {
+  @media only screen and (min-width : 1201px) {
+    display: none !important;
+  }
+}
+
+.show-on-extra-large {
+  @media only screen and (min-width : 1201px) {
+    display: block !important;
+  }
+}
+.show-on-large {
+  @media only screen and (min-width : 943px) {
+    display: block !important;
+  }
+}
+.show-on-medium {
+  display:none;
+  @media only screen and (max-width : 942px){
+    display: block !important;
+  }
+}
+.show-on-small {
+  @media only screen and (max-width : 600px) {
+    display: block !important;
+  }
+}
