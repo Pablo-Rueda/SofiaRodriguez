@@ -24,8 +24,9 @@ const Therapy = () => {
             <div className={therapyStyle.content}>
                 <h3 style={{color:"#FB68A2",}}> TERAPIA HUMANISTA</h3>
                 <h1 style={{color:"#904D9F",}}>¿Qué esperar?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minus itaque vitae natus soluta quos suscipit explicabo aperiam molestias aliquid, dignissimos inventore accusantium accusamus quisquam quibusdam voluptates fuga. Vel, architecto!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minus itaque vitae natus soluta quos suscipit explicabo aperiam molestias aliquid, dignissimos inventore accusantium accusamus quisquam quibusdam voluptates fuga. Vel, architecto!</p>
+                <p>Sabemos que, tarde o temprano, en nuestra vida va a existir sufrimiento. Cuando nos sentimos confusos, atascados en ese dolor, sin saber muy bien qué hacer o cómo actuar, ese puede ser el mejor momento para acudir a terapia.</p>
+                <p>Otras personas desean empezar una terapia con el fin de conocerse mejor a sí mismos, de cultivar su interior y desarrollarse como individuo. Los psicólogos podemos acompañar a la persona en este viaje de autodescubrimiento y trabajo personal.</p>
+                <p>Cada ser humano es único y complejo. Por ello, la terapia se adaptará de la mejor forma posible al paciente, teniendo en cuenta siempre sus necesidades.</p>
             </div>
             
         </div>
