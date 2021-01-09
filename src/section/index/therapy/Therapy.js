@@ -9,14 +9,14 @@ const Therapy = () => {
             <div className={therapyStyle.image}>
                 <div className={therapyStyle.imgContent}> 
                     <div className={therapyStyle.content}> 
-                        <h3 style={{textAlign:"center",paddingTop:15}}> Quizás necesitas ayuda sí...</h3>
+                        <h3 style={{textAlign:"center",paddingTop:15}}> Quizás necesitas ayuda si...</h3>
                         <ul>
                             <li><p>padeces de problemas emocionales como tristeza crónica o ansiedad,</p></li>
                             <li><p>no logras relacionarte y socializar con quienes te rodean,</p></li>
                             <li><p>tienes problemas continuos con tus seres queridos, como pareja o familia.</p></li>
                         </ul>
                         <div style={{display:"flex", justifyContent: "center"}}>
-                            <Link to="/servicios"><Button btnColor="#BD71CF" hoverText="white"> Servicios</Button></Link>
+                            <Link to="/contacto"><Button btnColor="#FB68A2" hoverText="white"> Contacto</Button></Link>
                         </div>
                     </div>
                 </div>

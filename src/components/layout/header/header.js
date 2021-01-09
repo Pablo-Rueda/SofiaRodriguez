@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
         if(shadow){
             setShadowOnScroll({boxShadow: "0px 0px 3px 0.1px black"})
         }else{
-            setShadowOnScroll({boxShadow: "0px 0px 0px 0px black"})
+            setShadowOnScroll({boxShadow: "0px 0px 0px 0px white"})
         }
       })
   
@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
             <Link to="/"> <img className={headerStyles.logo} src={require('./logo.png')} alt="logo"/></Link>
             <Grid container direction="row" justify="flex-end" alignItems="center">
               <Link className={headerStyles.navItem} to="/">Inicio</Link>
-              <Link className={headerStyles.navItem} to="/servicios">Servicios</Link>
+              <Link className={headerStyles.navItem} to="/precios">Precios</Link>
               <Link className={headerStyles.navItem} to="/contacto">Contacto</Link>
             </Grid>
           </Toolbar>
