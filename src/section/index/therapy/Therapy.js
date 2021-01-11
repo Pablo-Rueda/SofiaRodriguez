@@ -15,7 +15,7 @@ const Therapy = () => {
                             <li><p>no logras relacionarte y socializar con quienes te rodean,</p></li>
                             <li><p>tienes problemas continuos con tus seres queridos, como pareja o familia.</p></li>
                         </ul>
-                        <div style={{display:"flex", justifyContent: "center"}}>
+                        <div style={{display:"flex", justifyContent: "center", paddingBottom:"25px"}}>
                             <Link to="/contacto"><Button btnColor="#FB68A2" hoverText="white"> Contacto</Button></Link>
                         </div>
                     </div>

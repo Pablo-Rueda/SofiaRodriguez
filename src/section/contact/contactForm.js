@@ -3,7 +3,7 @@ import contactStyle from "./contact.module.scss"
 
 import Btn from "./../../components/button/button"
 
-import { Formik, Form, Field, ErrorMessage } from 'formik'; //simplify forms
+import { Formik, Form, Field, ErrorMessage } from 'formik'; // simplify forms
 import * as Yup from 'yup'; // simplify information
 import emailjs from 'emailjs-com'; // manage email information
 
