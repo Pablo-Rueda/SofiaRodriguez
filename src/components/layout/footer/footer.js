@@ -4,7 +4,8 @@ import footerStyles from "./footer.module.scss";
 const footer = () => {
     return ( 
         <div className={footerStyles.container}>
-            <p className={footerStyles.text}>© 2021 Sofía Rodríguez - by Pablo Rueda</p>
+            <p className={footerStyles.text}>© 2021 Sofía Rodríguez - by <a style={{color:"white"}} href="https://pablorueda.com/">Pablo Rueda</a>
+            </p>
         </div>
      );
 }

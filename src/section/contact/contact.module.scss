@@ -1,0 +1,51 @@
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 80%;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 0.85fr 0.15fr;
+    grid-gap: 25px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+
+    .field{
+        padding-left: 10px;
+        max-width: 850px;
+        color:#BD71CF;
+        border:solid 1px #BD71CF;
+        border-radius: 5px;
+    }
+}
+
+.field:focus{
+    outline:0;
+}
+
+button{
+    background-color:transparent;
+    border: 0px;
+}
+button:focus{
+    outline:0;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    line-height: 18px;
+    font-size: 18px !important;        
+
+
+    i{
+        font-size: 32px;
+        padding-right: 10px;
+        color:#BD71CF;
+    }
+    
+}

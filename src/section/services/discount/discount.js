@@ -12,9 +12,10 @@ const Discounts = () => {
         <div className={discountStyle.section}>
             
             <div className={discountStyle.content}>
-                <h1 style={{color:"#904D9F",}}> Descuento</h1>
+                <h3 style={{color:"#FB68A2",}}> DESCUENTOS</h3>
+                <h1 style={{color:"#904D9F",}}> ¿Qué descuentos hay?</h1>
                 <p> Si sabes que podrías requerir múltiples sesiones de terapia, ofrecemos descuentos a partir de cuatro sesiones
-                en un mes. Esto se aplica tanto para la terapia presencial (en consulta), como para la terapia online:
+                en un mes. Esto se aplica tanto para la terapia en consulta, como para la terapia online. Si quieres saber más, contáctame.
                 </p>
                 <div className={discountStyle.cardsFlex}>
                     <div>

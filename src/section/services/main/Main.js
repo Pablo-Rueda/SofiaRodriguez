@@ -5,7 +5,7 @@ import mainStyle from "./main.module.scss"
 const Main = () => {
     return ( 
         <div className={mainStyle.container}><div className={mainStyle.content}>
-            <h1>Servicios</h1>
+            <h1>Precios</h1>
         </div></div>
      );
 }
