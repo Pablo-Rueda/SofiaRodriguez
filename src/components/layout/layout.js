@@ -1,7 +1,7 @@
 import React from 'react'
 import { createMuiTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
-
+import Head from "./head"
 // Components:
 import Header from "./header/header"
 import Footer from "./footer/footer"
@@ -24,6 +24,7 @@ const theme = createMuiTheme({
 const Layout = (props) => {
     return (
         <ThemeProvider theme={theme}>
+        <Head />
             <div className={layoutStyles.container}>
                 <div className={layoutStyles.content}>
                     <Header />

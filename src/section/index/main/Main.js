@@ -8,7 +8,7 @@ import Button from "../../../components/button/button"
 const Main = () => {
     return ( 
         <div className={mainStyle.container}><div className={mainStyle.content}>
-            <h1>Sofía Rodríguez</h1>
+            <h1>Jhon Doe</h1>
             <h2>Psicóloga Humanista</h2>
             <div className={mainStyle.buttons}>
                 <Link className={mainStyle.button} to="/precios"><Button btnColor="#BD71CF" hoverText="white"> Precios</Button></Link>

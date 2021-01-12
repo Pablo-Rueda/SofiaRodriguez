@@ -20,7 +20,7 @@ const onSubmit =  (values,onSubmitProps) => {
     let serviceID = process.env.SERVICE_ID
     let templateID = process.env.TEMPLATE_ID;
     let userID = process.env.USER_ID;
-    emailjs.send(serviceID,templateID,values,userID) 
+    // emailjs.send(serviceID,templateID,values,userID) 
 
     onSubmitProps.resetForm(); // clean form
 }

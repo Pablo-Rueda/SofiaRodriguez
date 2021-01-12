@@ -17,16 +17,16 @@ const Contact = () => {
                             <i className="material-icons" >home</i> 
                             <span>Toledo y Madrid</span>
                         </p>
-                        {/*
+                        
                         <p className={contactStyle.icon}> 
                             <i className="material-icons" >phone_android</i> 
                             <span>123 45 67 89</span>
                         </p>
-                        */}
+                        
 
                         <p className={contactStyle.icon}> 
                             <i className="material-icons" >local_post_office</i> 
-                            <span>sofia.rodriguez.pantoja@gmail.com</span>
+                            <span>jhony.doe@psychology.doe</span>
                         </p>
                         <p className={contactStyle.icon}> 
                             <i className="material-icons" >watch_later</i> 
