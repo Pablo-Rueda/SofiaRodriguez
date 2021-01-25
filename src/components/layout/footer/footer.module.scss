@@ -9,3 +9,13 @@
         font-size: 16px;
     }
 }
+
+.link{
+    color:white;
+    border-bottom: 2px solid white;
+}
+.link:hover{
+    color:#fad1e1;
+    border-bottom: 2px solid #fad1e1;
+    //text-decoration: underline;
+}

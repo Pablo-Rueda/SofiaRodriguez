@@ -20,7 +20,7 @@ const onSubmit =  (values,onSubmitProps) => {
     let serviceID = process.env.SERVICE_ID
     let templateID = process.env.TEMPLATE_ID;
     let userID = process.env.USER_ID;
-    // emailjs.send(serviceID,templateID,values,userID) 
+    emailjs.send(serviceID,templateID,values,userID) ;
 
     onSubmitProps.resetForm(); // clean form
 }
@@ -66,10 +66,12 @@ const ContactForm = () => {
                     <ErrorMessage name="email" className={contactStyle.error} />
                         
                     <Field as="textarea" placeholder="Motivo de consulta"  
-                        type="text" id="description" name="description" row="20"
+                        type="text" id="description" name="description" row="40"
                         className={contactStyle.field} />
-
-                    <Btn btnColor="#FB68A2" hoverText="#FFFFFF" > Enviar</Btn>
+                    <div style={{display:"flex",justifyContent:"center"}}>
+                        <Btn btnColor="#FB68A2" hoverText="#FFFFFF" > Enviar</Btn>
+                    </div>
+                    
                 </Form>
             )}}
         </Formik>

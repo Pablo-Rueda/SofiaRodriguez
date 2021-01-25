@@ -11,6 +11,17 @@
     justify-items: center;
 }
 
+.cardContanier{
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    padding-bottom: 0; margin-bottom: 0;
+}
+
+.cardContent{
+    flex-grow: 1;
+    padding-bottom: 0; margin-bottom: 0;
+}
 
 @media only screen and (max-width : 1000px){
     .content {

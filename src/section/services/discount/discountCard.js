@@ -9,7 +9,7 @@ import CardContent from '@material-ui/core/CardContent';
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 200,
+    minWidth: 250,
     width: 25,
     margin:10,
     padding:0,

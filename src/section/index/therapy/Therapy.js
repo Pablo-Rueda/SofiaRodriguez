@@ -16,7 +16,7 @@ const Therapy = () => {
                             <li><p>tienes problemas continuos con tus seres queridos, como pareja o familia.</p></li>
                         </ul>
                         <div style={{display:"flex", justifyContent: "center", paddingBottom:"25px"}}>
-                            <Link to="/contacto"><Button btnColor="#FB68A2" hoverText="white"> Contacto</Button></Link>
+                            <Link to="/precios"><Button btnColor="#BD71CF" hoverText="white"> Precios </Button></Link>
                         </div>
                     </div>
                 </div>
@@ -24,9 +24,14 @@ const Therapy = () => {
             <div className={therapyStyle.content}>
                 <h3 style={{color:"#FB68A2",}}> TERAPIA HUMANISTA</h3>
                 <h1 style={{color:"#904D9F",}}>¿Qué esperar?</h1>
-                <p>Sabemos que, tarde o temprano, en nuestra vida va a existir sufrimiento. Cuando nos sentimos confusos, atascados en ese dolor, sin saber muy bien qué hacer o cómo actuar, ese puede ser el mejor momento para acudir a terapia.</p>
-                <p>Otras personas desean empezar una terapia con el fin de conocerse mejor a sí mismos, de cultivar su interior y desarrollarse como individuo. Los psicólogos podemos acompañar a la persona en este viaje de autodescubrimiento y trabajo personal.</p>
-                <p>Cada ser humano es único y complejo. Por ello, la terapia se adaptará de la mejor forma posible al paciente, teniendo en cuenta siempre sus necesidades.</p>
+                <p>Las terapias humanistas centran su mirada en la persona: cada ser humano es único y complejo. Y es por ello que las terapias han de 
+                adaptarse de la mejor forma posible al paciente, teniendo en cuenta siempre sus necesidades y su capacidad de elección. </p>
+                <p>Concretamente, la Terapia Focalizada en la Emoción (TFE) se centra en la emoción como la respuesta fundamental en el ser 
+                humano. Las emociones ayudan a que nos adaptemos al contexto. Pero en ocasiones, pueden sentirse distorsionadas, muy apagadas, 
+                o por el contario, nos abruman. Esto nos puede llevar a estados donde nos sintamos confusos, atascados en el dolor, sin saber 
+                muy bien qué hacer o cómo actuar. Ese puede ser el mejor momento para acudir a terapia. </p>
+                <p>No obstante, otras personas desean empezar una terapia con el fin de conocerse mejor a sí mismos, cultivar su interior y 
+                desarrollarse como individuos. Los psicólogos podemos acompañar a la persona en este viaje de autodescubrimiento y trabajo personal.</p>
             </div>
             
         </div>

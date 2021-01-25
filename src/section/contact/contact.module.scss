@@ -27,9 +27,14 @@
 }
 
 .contact{
-    display: grid;
-    grid-template-columns: 0.85fr 0.15fr;
-    grid-gap: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .icon{
+        padding: 0.25rem 0;
+        margin: 0;
+    }
+
 }
 
 @media only screen and (max-width : 700px){
@@ -72,6 +77,19 @@ button:focus{
         font-size: 32px;
         padding-right: 10px;
         color:#BD71CF;
+    }
+    .icn{
+        margin: 0;
+        padding:0;
+        height: 32px;
+        padding-right: 10px;
+    }
+    a{
+        padding:0;
+        margin: auto 0;
+    }
+    a:hover{
+        color:#FB68A2;
     }
     
 }

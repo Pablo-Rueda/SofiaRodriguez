@@ -2,13 +2,13 @@ $secondaryColor:white;
 
 .btn {
   width: auto;
-  padding: 0px 10px;
+  padding: 5px 20px;
   border-radius: 5px;
   border:0px;
   font-family: 'ubuntu', sans-serif;
-  font-size:18px;
+  font-size:24px;
 }
-  
+
 .btn:hover{
   color:white;
   background-color:rgba($secondaryColor,1);

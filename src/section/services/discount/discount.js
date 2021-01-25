@@ -14,22 +14,22 @@ const Discounts = () => {
             <div className={discountStyle.content}>
                 <h3 style={{color:"#FB68A2",}}> DESCUENTOS</h3>
                 <h1 style={{color:"#904D9F",}}> ¿Qué descuentos hay?</h1>
-                <p> Si sabes que podrías requerir múltiples sesiones de terapia, ofrecemos descuentos a partir de cuatro sesiones
-                en un mes. Esto se aplica tanto para la terapia en consulta, como para la terapia online. Si quieres saber más, contáctame.
-                </p>
+                <p> Si estás interesado, tenemos descuentos a partir de cuatro sesiones de terapia al mes. Esto se aplica tanto para la terapia 
+                en consulta como para la terapia online. Los descuentos que puedes encontrar a continuación son del 10% Y 20% (para cuatro  y 
+                doce sesiones respectivamente). Para más información, si lo deseas puedes contactarme a través de la página web.</p>
                 <div className={discountStyle.cardsFlex}>
                     <div>
                         <DiscountCard>
                             <h1>Online</h1>
-                            <p> 4 Sesiones: 140 €</p>
-                            <p> 24 Sesiones: 800 €</p>
+                            <p> 4 Sesiones: <span style={{textDecoration:"line-through"}}>160€</span>  144€</p> 
+                            <p> 12 Sesiones: <span style={{textDecoration:"line-through"}}>480€</span>  384€</p> 
                         </DiscountCard>
                     </div>
                     <div>
                         <DiscountCard>
                             <h1>Consulta</h1>
-                            <p> 4 Sesiones: 200 €</p>
-                            <p> 24 Sesiones: 1100 €</p> 
+                            <p> 4 Sesiones: <span style={{textDecoration:"line-through"}}>240€</span>  216€</p>
+                            <p> 12 Sesiones: <span style={{textDecoration:"line-through"}}>720€</span>  576€</p>
                         </DiscountCard>
                     </div>
                 </div>
