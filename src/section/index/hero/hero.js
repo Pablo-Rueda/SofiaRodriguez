@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Card from './cards';
 import {Link} from "gatsby";
 import Button from "../../../components/button/button"
+import heroStyle from "./hero.module.scss"
 
 
 const Hero = () => {
@@ -22,7 +23,8 @@ const Hero = () => {
                     terapéuticos. Estas me han permitido obtener conocimientos versátiles en varias corrientes psicoterapéuticas y una 
                     amplia experiencia en centros terapéuticos, colegios, fundaciones y ONGs. Durante mi tiempo de trabajo he adquirido 
                     experiencia como psicóloga tanto en formato presencial como online.</p>
-                    <Link to="/contacto"><Button btnColor="#FB68A2" hoverText="white"> Contacto</Button></Link>
+                    <div className={heroStyle.button}><Link to="/contacto"><Button btnColor="#FB68A2" hoverText="white"> Contacto</Button></Link></div>
+                    
                 </Grid>
                 <Grid item xs={12} sm={4} style={{display:"flex", flexDirection:"column", alignItems:"center", paddingBottom:"1rem"}}>
                     <Card />

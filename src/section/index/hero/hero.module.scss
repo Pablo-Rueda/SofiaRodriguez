@@ -1,16 +1,7 @@
-
-.heroSection{
-    background-color: white;
-}
-
-.container{
-    max-width: 950px;
-    width: 90%;
-    margin: 0 auto;
-
-}
-
-.card{
-    width: 345px;
-    height: 140px;
-}
+.button{
+    display:flex;
+    padding-bottom: 1.5rem;
+    @media only screen and (max-width : 600px){
+        justify-content: center;
+    }
+  }

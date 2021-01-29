@@ -17,9 +17,9 @@ const onSubmit =  (values,onSubmitProps) => {
     console.log("submit props", onSubmitProps)
 
         // send the message via email with emailjs:
-    let serviceID = process.env.SERVICE_ID
-    let templateID = process.env.TEMPLATE_ID;
-    let userID = process.env.USER_ID;
+    let serviceID = process.env.GATSBY_SERVICE_ID
+    let templateID = process.env.GATSBY_TEMPLATE_ID;
+    let userID = process.env.GATSBY_USER_ID;
     emailjs.send(serviceID,templateID,values,userID) ;
 
     onSubmitProps.resetForm(); // clean form
